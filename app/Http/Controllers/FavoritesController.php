@@ -14,7 +14,6 @@ class FavoritesController extends Controller
         return back();
     }
 
-    
     public function destroy($id)
     {
         // 認証済みユーザ（閲覧者）が、 idのユーザをアンフォローする

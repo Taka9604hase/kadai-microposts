@@ -12,4 +12,5 @@
             {{-- ユーザ一覧 --}}
             @include('users.users')
         </div>
+    </div>
 @endsection
